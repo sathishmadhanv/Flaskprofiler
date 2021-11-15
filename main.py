@@ -8,6 +8,7 @@ app.add_url_rule('/certificates','certificates',views.c)
 app.add_url_rule('/experience','experience',views.exper)
 app.add_url_rule('/personalprojects','personalprojects',views.pp)
 app.add_url_rule('/about','about',views.about)
+app.add_url_rule('/trainings','trainings',views.trainings)
 
 
 

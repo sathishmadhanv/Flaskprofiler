@@ -17,6 +17,8 @@ def index():
     return render_template('index.html')
 def about():
     return render_template('about.html')
+def trainings():
+    return render_template('trainings.html')
 
 
 

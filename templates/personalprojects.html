@@ -16,6 +16,10 @@
 		
 		<div class="wrapper d-flex align-items-stretch">
 			<nav id="sidebar">
+        <div class="custom-menu">
+					<button type="button" id="sidebarCollapse" class="btn btn-primary">
+	        </button>
+        </div>
 				<div class="img bg-wrap text-center py-1" style="background-image: url('static/images/7.jpg')">
 	  			<div class="user-logo">
             <br>
@@ -43,7 +47,8 @@
           <li>
             <a href="{{url_for('skills')}}">Skills</a>
           </li>
-          
+          <li><a href="{{url_for('trainings')}}">Trainings</a></li>
+          <li><a href="static/resume/Sathish_Madhan_Resume.pdf" download>Download Resume</a></li>
         </ul>
 
     	</nav>
@@ -78,7 +83,7 @@
                     <div class="card-body">
                       <h5 class="card-title">8TeenGaming.com</h5>
                     <p class="card-text">Worked as a freelancer for an online gaming community platform.</p>
-                    <p class="card-text">Developed the core code base using Flask. Including Authentication.Integrated Paytm Payment portal.Integrated MySQL DB with flask.</p>
+                    <p class="card-text">Developed the core code base using Flask. Including Authentication.Integrated MySQL DB with flask.</p>
                     <p class="card-text">The front-end is being developed</p>
                     <p class="card-text"> Technologies used :</p>
                     <ul>
@@ -123,7 +128,8 @@
                   <div class="card" style="background-color:whitesmoke;">
                     <div class="card-body">
                        <h5 class="card-title">Farm log</h5>
-                      <p class="card-text">Data regarding farmers and their tools has been collected from ngo's.Data has been stored in MySQL server</p>
+                      <p class="card-text">User data has been collected and stored in MySQL server</p>
+                      <p class="card-text">Frontend has been developed with Html.User authentication has been added through PHP</p>
                       <p class="card-text">An android app has created to get request from the user and the user will be assigned with  the particular requirements </p>
                       <p class="card-text"> Technologies used :</p>
                       <ul>
@@ -142,11 +148,10 @@
               </div>
 
       </div>
-    <script src="{{url_for('static',filename='css/style.css')}}"></script>
-    <script src="{{url_for('static',filename='js/popper.js')}}"></script>
-    <script src="{{url_for('static',filename='js/bootstrap.min.js')}}"></script>
-    <script src="{{url_for('static',filename='js/main.js')}}"></script>
-
+      <script src="static/js/jquery.min.js"></script>
+      <script src="static/js/popper.js"></script>
+      <script src="static/js/bootstrap.min.js"></script>
+      <script src="static/js/main.js"></script>
     <style>
       body {
         background-image: "{{url_for('static',filename='images/farm.png')}}" ;
