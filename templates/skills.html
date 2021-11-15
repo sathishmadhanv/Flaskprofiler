@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Sathish Madhan's Resume</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+  </head>
+  <body >
+		
+		<div class="wrapper d-flex align-items-stretch">
+			<nav id="sidebar">
+				
+	  		<div class="img bg-wrap text-center py-1" style="background-image: url('static/images/7.jpg')">
+	  			<div class="user-logo">
+            <br>
+            <br>
+	  				<div class="img" style="background-image: url('static/images/s3.jpg')"></div>
+            
+	  				<p><span   style="color: aliceblue;"><b>Sathish Madhan</b>
+              <br>Python Developer</span></p>
+	  			</div>
+	  		</div>
+        <ul class="list-unstyled components mb-5">
+          <li class="active">
+            <a href="{{url_for('index')}}">About</a>
+          </li>
+
+          <li>
+            <a href="{{url_for('experience')}}">Experience</a>
+          </li>
+          <li>
+            <a href="{{url_for('certificates')}}">Certifications</a>
+          </li>
+          <li>
+            <a href="{{url_for('personalprojects')}}">Personal Projects</a>
+          </li>
+          <li>
+            <a href="{{url_for('skills')}}">Skills</a>
+          </li>
+          
+        </ul>
+
+    	</nav>
+
+        <!-- Page Content  -->
+      <div id="content" class="p-4 p-md-5 pt-5">
+       <div class="container">
+            <div class="accordion" id="accordionExample">
+  <div class="accordion-item" style="background-color:goldenrod">
+    <h4 class="accordion-header" id="headingOne" style="background-color:#343a40;">
+      <a class="accordion-button" style="color: aliceblue;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Languages
+      </a>
+    </h4>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+      <ul style="color: black;">
+        <li><p>Python</p></li></li>
+        <li><p>Java</p></li>
+          <li><p>SQL</p></li>
+            <li><p>HTML</p></li>
+              <li><p>CSS</p></li>
+      </ul>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item" style="background-color:goldenrod">
+    <h4 class="accordion-header" id="headingTwo" style="background-color:#343a40;">
+      <a class="accordion-button collapsed" style="color: aliceblue;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Technology
+      </a>
+    </h4>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <ul style="color: black;">
+        <li><p> Machine Learning</p></li>
+         <li><p>Artificial Intelligence</p></li>
+         <li><p> Natural Language Processing</p></li>
+         <li><p>Web Development</p></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item" style="background-color:goldenrod">
+    <h4 class="accordion-header" id="headingThree" style="background-color:#343a40;">
+      <a class="accordion-button collapsed"  style="color: aliceblue;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Python Libraries
+      </a>
+    </h4>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <ul style="column-count: 3;color: black;">
+        <li><p> NLTK </p></li>
+          <li><p> GenSim</p></li>
+          <li><p> spaCy</p></li>
+          <li><p> Numpy</p></li>
+          <li><p> Pandas</p></li>
+          <li><p> Text Blob </p></li>
+          <li><p> matplotlib</p></li>
+          <li><p>smtp</p></li>
+          <li><p> Scikit-learn</p></li>
+          <li><p> speech recognition</p></li>
+          <li><p> Pyaudio</p></li>
+          <li><p> pickle</p></li>
+          <li><p> opencv</p></li>
+          <li><p> flask</p></li>
+          <li><p> glob</p></li>
+          <li><p> os</p></li>
+          <li><p>scipy</p></li>
+          <li><p> PIL</p></li>
+          </ul>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item" style="background-color:goldenrod">
+    <h4 class="accordion-header" id="headingThree"  style="background-color:#343a40;">
+      <a class="accordion-button collapsed" style="color: aliceblue;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+        Database
+      </a>
+    </h4>
+    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <ul style="color: black;">
+        <li><p>MySQL</p></li>
+         <li><p>PL\SQL</p></li>
+         </ul>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item" style="background-color:goldenrod">
+    <h4 class="accordion-header" id="headingThree" style="background-color:#343a40;">
+      <a class="accordion-button collapsed" style="color: aliceblue;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+        Web Framework
+      </a>
+    </h4>
+    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <ul style="color: black;">
+        <li><p>Flask</p></li>
+         <li><p>Django</p></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item" style="background-color:goldenrod">
+    <h4 class="accordion-header" id="headingThree" style="background-color:#343a40;">
+      <a class="accordion-button collapsed" style="color: aliceblue;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
+        Soft Skills
+      </a>
+    </h4>
+    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <ul style="color: black;">
+        <li><p>Ownership</p></li>
+        <li> <p>Leadership</p></li>
+        <li> <p>Problem solver</p></li>
+        <li><p>Time Management</p></li> 
+        <li><p>Collaboration</p></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+		</div>
+
+    <script src="{{url_for('static',filename='css/style.css')}}"></script>
+    <script src="{{url_for('static',filename='js/popper.js')}}"></script>
+    <script src="{{url_for('static',filename='js/bootstrap.min.js')}}"></script>
+    <script src="{{url_for('static',filename='js/main.js')}}"></script>
+
+    <style>
+      body {
+        background-image: "{{url_for('static',filename='images/farm.png')}}" ;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+      }
+      </style>
+
+
+  </body>
+</html>

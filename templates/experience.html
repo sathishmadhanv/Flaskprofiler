@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Sathish Madhan's Resume</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+  </head>
+  <body >
+		
+		<div class="wrapper d-flex align-items-stretch">
+			<nav id="sidebar">
+				<div class="img bg-wrap text-center py-1" style="background-image: url('static/images/7.jpg')">
+	  			<div class="user-logo">
+            <br>
+            <br>
+	  				<div class="img" style="background-image: url('static/images/s3.jpg')"></div>
+            
+	  				<p><span   style="color: aliceblue;"><b>Sathish Madhan</b>
+              <br>Python Developer</span></p>
+	  			</div>
+	  		</div>
+        <ul class="list-unstyled components mb-5">
+          <li class="active">
+            <a href="{{url_for('index')}}">About</a>
+          
+
+          
+            <a href="{{url_for('experience')}}">Experience</a>
+          
+          
+            <a href="{{url_for('certificates')}}">Certifications</a>
+          
+          
+            <a href="{{url_for('personalprojects')}}">Personal Projects</a>
+          
+          
+            <a href="{{url_for('skills')}}">Skills</a>
+          
+          
+        </ul>
+
+    	</nav>
+
+        <!-- Page Content  -->
+      <div id="content" class="p-4 p-md-5 pt-5">
+      <div class="container">
+    <div class="row">
+        <div class="col-sm-6" >
+            <img src="{{url_for('static',filename='images/tcslogo.jfif')}}" class="card-img-top" width="75" height="200">
+          <div class="card" >
+            <div class="card-body" style="background-color: whitesmoke;" >
+              <h5 class="card-title">NLP Developer 05/21 -present </h5>
+              <ul >
+              <p class="card-text" >Created a Data Model Mapping Recommender and delivered to the client. Which now applied them to real world business problems</p>
+              <p class="card-text">Applied NLTK library to NLP data processing and finding the patterns</p>
+              <p class="card-text">Made NLP models for Topic Extraction, Sentiment Analysis </p>
+              <p class="card-text">Involved in the continuous enhancements & best solutions</p>
+              <p class="card-text"><b>Languages Used</b> :Python,SQL,HTML,CSS,bootstrap</p>
+                <p class="card-text"><b>Tools Used</b> :mysql,pl/sql,visual studio</p>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6" >
+            <img src="{{url_for('static',filename='images/tcslogo.jfif')}}" class="card-img-top" width="75" height="200">
+          <div class="card" >
+            <div class="card-body" style="background-color: whitesmoke;">
+              <h5 class="card-title">Automation Developer 03/19 - 04/21</h5>
+              <ul >
+              <p class="card-text">Developed 3 Automation script in python for sending health check report</p>
+              <p class="card-text">Altered stored procedures for faster execution</p>
+              <p class="card-text">Developed 8 Automation Scripts in python to take extract from database and send it to client</p>
+              <p class="card-text">Received 2 appreciations from clients and won best team award twice</p>
+              <p class="card-text"><b>Languages used</b> :Java,Python,SQL,HTML,CSS,Bootstrap</p>
+              <p class="card-text"><b>Tools Used</b> :mysql,pl/sql,eclipse,visual studio</p>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+       
+		</div>
+
+    <script src="{{url_for('static',filename='css/style.css')}}"></script>
+    <script src="{{url_for('static',filename='js/popper.js')}}"></script>
+    <script src="{{url_for('static',filename='js/bootstrap.min.js')}}"></script>
+    <script src="{{url_for('static',filename='js/main.js')}}"></script>
+<style>
+p{
+  color:black;
+}
+
+</style>
+
+<style>
+  body {
+    background-image: "{{url_for('static',filename='images/farm.png')}}" ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+  </style>
+  </body>
+</html>

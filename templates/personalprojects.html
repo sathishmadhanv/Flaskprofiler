@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Sathish Madhan's Resume</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+  </head>
+  <body >
+		
+		<div class="wrapper d-flex align-items-stretch">
+			<nav id="sidebar">
+				<div class="img bg-wrap text-center py-1" style="background-image: url('static/images/7.jpg')">
+	  			<div class="user-logo">
+            <br>
+            <br>
+	  				<div class="img" style="background-image: url('static/images/s3.jpg')"></div>
+            
+	  				<p><span   style="color: whitesmoke;"><b>Sathish Madhan</b>
+              <br>Python Developer</span></p>
+	  			</div>
+	  		</div>
+        <ul class="list-unstyled components mb-5">
+          <li class="active">
+            <a href="{{url_for('index')}}">About</a>
+          </li>
+
+          <li>
+            <a href="{{url_for('experience')}}">Experience</a>
+          </li>
+          <li>
+            <a href="{{url_for('certificates')}}">Certifications</a>
+          </li>
+          <li>
+            <a href="{{url_for('personalprojects')}}">Personal Projects</a>
+          </li>
+          <li>
+            <a href="{{url_for('skills')}}">Skills</a>
+          </li>
+          
+        </ul>
+
+    	</nav>
+
+        <!-- Page Content  -->
+      <div id="content" class="p-4 p-md-5 pt-5">
+              <div class="container">
+                <div class="row">
+                <div class="col-sm-6">
+                  <img src="{{url_for('static',filename='images/applilogo.png')}}" class="card-img-top" alt="..." width="75" height="200">
+                  <div class="card" style="background-color:whitesmoke;">
+                    <div class="card-body">
+                      <h5 class="card-title">Face Recognition</h5>
+                      <p class="card-text">This app is driven by data and machine learning model.</p>
+                      <p class="card-text">As soon as user upload the image, in background it convert into grayscale, crop face, convert into eigen image  and finally it model to predict.</p>
+                      <p class="card-text">All this functionality dumped in the flask app.</p>
+                      <p class="card-text"> Technologies used :</p>
+                      <ul>
+                              <li>HTML</li>
+                              <li>CSS</li>
+                              <li>Bootstrap</li>
+                              <li>Python</li>
+                              <li>Flask</li>
+                              <li>Machine Learning</li>
+                          </ul>
+                    </div>
+                   </div>
+                </div>
+                <div class="col-sm-6">
+                  <img src="{{url_for('static',filename='images/gamelogo.png')}}" class="card-img-top" alt="..."  width="75" height="200">
+                  <div class="card" style="background-color:whitesmoke;">
+                    <div class="card-body">
+                      <h5 class="card-title">8TeenGaming.com</h5>
+                    <p class="card-text">Worked as a freelancer for an online gaming community platform.</p>
+                    <p class="card-text">Developed the core code base using Flask. Including Authentication.Integrated Paytm Payment portal.Integrated MySQL DB with flask.</p>
+                    <p class="card-text">The front-end is being developed</p>
+                    <p class="card-text"> Technologies used :</p>
+                    <ul>
+                              <li>HTML</li>
+                              <li>CSS</li>
+                              <li>Bootstrap</li>
+                              <li>Python</li>
+                              <li>Flask</li>
+                              <li>Flutter</li>
+                            </ul>
+                    </div>
+                    </div>
+                </div>
+                </div>
+              </div>
+              <br>
+              <br>
+              <br>
+              <div class="container">
+                <div class="row">
+                <div class="col-sm-6">
+                  <img src="{{url_for('static',filename='images/Resume.jpg')}}" class="card-img-top" alt="..." width="75" height="200">
+                  <div class="card" style="background-color:whitesmoke;">
+                    <div class="card-body" >
+                     <h5 class="card-title">Personal Portfolio</h5>
+                    <p class="card-text">This is my first project on flask </p>
+                    <p class="card-text"> </p>
+                    <p class="card-text">Taken html,css and js templates from bootstrap and also i have take refernces from udemy </p>
+                    <p class="card-text"> Technologies used :</p>
+                    <ul>
+                                  <li>HTML</li>
+                                  <li>CSS</li>
+                                  <li>Bootstrap</li>
+                                  <li>Python</li>
+                                   <li>Flask</li>
+                                </ul>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                  <img src="{{url_for('static',filename='images/farm.png')}}" class="card-img-top" alt="..." width="75" height="200">
+                  <div class="card" style="background-color:whitesmoke;">
+                    <div class="card-body">
+                       <h5 class="card-title">Farm log</h5>
+                      <p class="card-text">Data regarding farmers and their tools has been collected from ngo's.Data has been stored in MySQL server</p>
+                      <p class="card-text">An android app has created to get request from the user and the user will be assigned with  the particular requirements </p>
+                      <p class="card-text"> Technologies used :</p>
+                      <ul>
+                                      <li>HTML</li>
+                                  <li>CSS</li>
+                                  <li>PHP</li>
+                                  <li>SQL</li>
+                                  <li>Bootstrap</li>
+                                      <li>Java</li>
+                                      <li>MYSQL</li>
+                                    </ul>
+                    </div>
+                    </div>
+                </div>
+              </div>
+              </div>
+
+      </div>
+    <script src="{{url_for('static',filename='css/style.css')}}"></script>
+    <script src="{{url_for('static',filename='js/popper.js')}}"></script>
+    <script src="{{url_for('static',filename='js/bootstrap.min.js')}}"></script>
+    <script src="{{url_for('static',filename='js/main.js')}}"></script>
+
+    <style>
+      body {
+        background-image: "{{url_for('static',filename='images/farm.png')}}" ;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+      }
+      </style>
+     
+      <style>
+        p{
+          color:black;
+        }
+        li{
+          color:black;
+        }
+      </style>
+      <style>
+        body {
+          background-image: "{{url_for('static',filename='images/farm.png')}}" ;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+        }
+        </style>
+  </body>
+</html>

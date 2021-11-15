@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Sathish Madhan's Resume</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+  </head>
+  <body >
+		
+		<div class="wrapper d-flex align-items-stretch">
+			<nav id="sidebar">
+				<div class="img bg-wrap text-center py-1" style="background-image: url('static/images/7.jpg')">
+	  			<div class="user-logo">
+            <br>
+           <br>
+	  				<div class="img" style="background-image: url('static/images/s3.jpg')"></div>
+            
+	  				<p><span   style="color: aliceblue;"><b>Sathish Madhan</b>
+              <br>Python Developer</span></p>
+	  			</div>
+	  		</div>
+        <ul class="list-unstyled components mb-5">
+          <li class="active">
+            <a href="{{url_for('index')}}">About</a>
+          </li>
+
+          <li>
+            <a href="{{url_for('experience')}}">Experience</a>
+          </li>
+          <li>
+            <a href="{{url_for('certificates')}}">Certifications</a>
+          </li>
+          <li>
+            <a href="{{url_for('personalprojects')}}">Personal Projects</a>
+          </li>
+          <li>
+            <a href="{{url_for('skills')}}">Skills</a>
+          </li>
+          
+        </ul>
+
+    	</nav>
+
+        <!-- Page Content  -->
+      <div id="content" class="p-4 p-md-5 pt-5">
+      
+        <div class="container">
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="{{url_for('static',filename='certificates/dbsda.jpg')}}" class="card-img-top" alt="..." width="300" height="250">
+            <div class="card-body">
+              <h5 class="card-title">Data Science</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="{{url_for('static',filename='certificates/python hacker.png')}}" class="card-img-top" alt="..." width="300" height="250">
+            <div class="card-body">
+              <h5 class="card-title">Python</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="{{url_for('static',filename='certificates/java.jpg')}}" class="card-img-top" alt="..." width="300" height="250">
+            <div class="card-body">
+              <h5 class="card-title">Java</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="{{url_for('static',filename='certificates/python-1.jpg')}}" class="card-img-top" alt="..." width="300" height="250">
+            <div class="card-body">
+              <h5 class="card-title">Python - udemy</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+<br>
+ <div class="container">
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+           <div class="card">
+               <img src="{{url_for('static',filename='certificates/zc.jpg')}}" class="card-img-top" alt="..." width="300" height="250">
+                <div class="card-body">
+                   <h5 class="card-title">Zoho Creator</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+           <div class="card">
+             <img src="{{url_for('static',filename='certificates/py2.jpg')}}" class="card-img-top" alt="..." width="300" height="250">
+             <div class="card-body">
+               <h5 class="card-title">Python</h5>
+             </div>
+           </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="{{url_for('static',filename='certificates/c#.jpg')}}" class="card-img-top" alt="..." width="300" height="250">
+            <div class="card-body">
+              <h5 class="card-title">C#</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="{{url_for('static',filename='certificates/dotnet.jpg')}}" class="card-img-top" alt="..." width="300" height="250">
+            <div class="card-body">
+              <h5 class="card-title">dot net</h5>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
+   
+		</div>
+
+    <script src="{{url_for('static',filename='css/style.css')}}"></script>
+    <script src="{{url_for('static',filename='js/popper.js')}}"></script>
+    <script src="{{url_for('static',filename='js/bootstrap.min.js')}}"></script>
+    <script src="{{url_for('static',filename='js/main.js')}}"></script>
+
+
+<style>
+        body {
+          background-image: "{{url_for('static',filename='images/farm.png')}}" ;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+        }
+        </style>
+  </body>
+</html>
